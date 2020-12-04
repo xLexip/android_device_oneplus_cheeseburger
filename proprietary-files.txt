@@ -22,13 +22,14 @@ vendor/lib/libchromatix_imx398_3a_3264x2448_24fps_preview_bokeh.so
 vendor/lib/libchromatix_imx398_3a_wechat_preview.so
 vendor/lib/libchromatix_imx398_isp_zsl_snapshot.so
 vendor/lib/libchromatix_imx398_preview_1080p_cpp.so
-vendor/lib/libmmcamera_imx398.so
 vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/hw/camera.msm8998.so
+vendor/lib/libmmcamera_imx398.so|f74690b8dddb3c7f2a070f7d8425a7e13c2ec3fc
+vendor/lib/libmmcamera_imx350.so|1e1efbbba891bc90444bf5ba4a05f6ddea193975
+vendor/lib/hw/camera.msm8998.so|d25d6750604909e38b888010bd6cf5306552f2c7
 
 # Fingerprint sensor
 lib/hw/fingerprint.msm8998.so:vendor/lib/hw/fingerprint.msm8998.so
