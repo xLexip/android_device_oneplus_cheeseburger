@@ -31,6 +31,13 @@
 
     <!-- Internal default to navigation bar value -->
     <bool name="config_defaultToNavigationBar">false</bool>
+    
+        <!-- Button backlight control. Possible values are:
+            0 - Not supported
+            1 - Supported, but only on/off mode
+            2 - Supported with variable brightness control
+    -->
+    <integer name="config_deviceSupportsButtonBrightnessControl">2</integer>
 
     <!-- Button brightness -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
