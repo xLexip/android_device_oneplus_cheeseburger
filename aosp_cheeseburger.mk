@@ -30,7 +30,7 @@ TARGET_USES_BLUR := true
 
 PRODUCT_NAME := aosp_cheeseburger
 PRODUCT_DEVICE := cheeseburger
-PRODUCT_MANUFACTURER := google
+PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 5
 
@@ -45,8 +45,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus5
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210305.006 7119741 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210405.005 7181113 release-keys"
 
 TARGET_VENDOR := oneplus
